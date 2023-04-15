@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #2b283a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  height: 55px;
+  width: 100%;
+  background-color: #f55a5a;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.bx-world {
+  font-size: 24px;
+}
+
+.bxs-map {
+  color: #f55a5a;
+  font-size: 12px;
+}
+
+.container {
+  display: block;
+  width: 550px;
+  margin: 45px auto;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+}
+
+.text-container {
+  margin-top: 10px;
+}
+
+.location-container {
+  display: flex;
+  gap: 5px;
+}
+
+.img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.location {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.location,
+.google-url,
+.dates {
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.google-url {
+  color: #918e9b;
+}
+
+.title {
+  font-weight: 700;
+  margin: 10px 0 22px;
+}
+
+.dates {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 70%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .img {
+    width: 100%;
+    height: 200px;
+  }
+}
