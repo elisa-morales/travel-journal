@@ -1,4 +1,4 @@
-# Traver journal
+# my travel journal.
 Solo project from Scrimba's React course, focusing on passing props.
 
 # Link
